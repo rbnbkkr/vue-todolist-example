@@ -21,11 +21,6 @@
         name: "todo-item",
         props: {
             todo: Object
-        },
-        methods: {
-            test(foo) {
-                console.log(foo)
-            }
         }
     }
 </script>

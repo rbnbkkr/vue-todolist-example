@@ -110,7 +110,6 @@
                 }
             },
             changeStatusTodo(changedStatus) {
-                console.log(changedStatus)
                 var todo = this.todos.find(todo => todo.id === changedStatus.id)
                 todo.completed = changedStatus.completed
             }
